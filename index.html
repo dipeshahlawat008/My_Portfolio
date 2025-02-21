@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <div class="logo-wrapper">
+                    <span class="logo-text">P</span>
+                    <span class="logo-text">o</span>
+                    <span class="logo-text">r</span>
+                    <span class="logo-text">t</span>
+                    <span class="logo-text">f</span>
+                    <span class="logo-text">o</span>
+                    <span class="logo-text">l</span>
+                    <span class="logo-text">i</span>
+                    <span class="logo-text">o</span>
+                    <div class="logo-line"></div>
+                </div>
+            </a>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link">
+                    <span>About</span>
+                </a>
+                <a href="#skills" class="nav-link">
+                    <span>Skills</span>
+                </a>
+                <a href="#work" class="nav-link">
+                    <span>Work</span>
+                </a>
+                <a href="#achievements" class="nav-link">
+                    <span>Achievements</span>
+                </a>
+                <a href="#contact" class="nav-link">
+                    <span>Contact</span>
+                </a>
+                <div class="nav-indicator"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home-section">
+        <div class="bg-effects">
+            <div class="bg-gradient"></div>
+            <div class="bg-grid"></div>
+            <div class="bg-dots"></div>
+        </div>
+        
+        <div class="hero-content">
+            <p class="hero-subtitle">👋 Welcome to my portfolio</p>
+            <h1 class="hero-title">
+                Hi, I'm Dipesh Ahlawat
+                <span class="gradient-text">DevOps Engineer</span>
+            </h1>
+            
+            <p class="hero-description">
+                Passionate about automating and optimizing infrastructure, 
+                specializing in cloud technologies and continuous integration/deployment pipelines.
+            </p>
+            
+            <div class="cta-buttons">
+                <a href="#work" class="cta-primary">View My Work</a>
+                <a href="#contact" class="cta-secondary">Get in Touch</a>
+            </div>
+            
+            <div class="tech-stack">
+                <div class="tech-item" data-tooltip="AWS">
+                    <i class="fab fa-aws"></i>
+                </div>
+                <div class="tech-item" data-tooltip="Docker">
+                    <i class="fab fa-docker"></i>
+                </div>
+                <div class="tech-item" data-tooltip="Jenkins">
+                    <i class="fab fa-jenkins"></i>
+                </div>
+                <div class="tech-item" data-tooltip="Kubernetes">
+                    <i class="fab fa-kubernetes"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title"><span>About Me</span></h2>
+            <div class="about-grid">
+                <div class="photo-container">
+                    <div class="photo-wrapper">
+                        <img src="my_image.jpeg" 
+                             alt="Dipesh Ahlawat" 
+                             class="profile-photo">
+                        <div class="photo-border"></div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text-wrapper">
+                        <p class="about-intro">
+                            Hello! I'm Dipesh Ahlawat, a passionate DevOps fresher with a strong foundation in cloud technologies and automation. Recently completed my Red Hat certifications (RHCSA & RHCE), I'm eager to apply my knowledge in a professional environment.
+                        </p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <h3>Education</h3>
+                                <ul>
+                                    <li>Master of Computer Applications (MCA)</li>
+                                    <li>Graduation Year: 2024</li>
+                                    <li>Bachelor of Computer Applications (BCA)</li>
+                                    <li>Graduation Year: 2021</li>
+                                </ul>
+                            </div>
+                            <div class="detail-item">
+                                <h3>Certifications</h3>
+                                <ul>
+                                    <li>Red Hat Certified System Administrator (RHCSA)</li>
+                                    <li>Red Hat Certified Engineer (RHCE)</li>
+                                </ul>
+                            </div>
+                            <div class="detail-item">
+                                <h3>Focus Areas</h3>
+                                <ul>
+                                    <li>Cloud Infrastructure (AWS)</li>
+                                    <li>Containerization (Docker & Kubernetes)</li>
+                                    <li>CI/CD Implementation</li>
+                                    <li>Infrastructure Automation</li>
+                                </ul>
+                            </div>
+                            <div class="detail-item">
+                                <h3>Skills</h3>
+                                <ul>
+                                    <li>DevOps Tools & Practices</li>
+                                    <li>Cloud Services & Management</li>
+                                    <li>System Administration</li>
+                                    <li>Automation & Scripting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <a href="https://aws.amazon.com/what-is-aws/" target="_blank" class="skill-link">
+                        <div class="skill-icon">
+                            <img src="https://cdn.worldvectorlogo.com/logos/aws-2.svg" alt="AWS">
+                        </div>
+                        <h3>Cloud & Infrastructure</h3>
+                    </a>
+                    <ul class="skill-list">
+                        <li>AWS Services (EC2, S3, RDS)</li>
+                        <li>Terraform & CloudFormation</li>
+                        <li>Infrastructure as Code</li>
+                        <li>Cloud Architecture Design</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <a href="https://www.docker.com/why-docker/" target="_blank" class="skill-link">
+                        <div class="skill-icon">
+                            <img src="https://cdn.worldvectorlogo.com/logos/docker.svg" alt="Docker">
+                        </div>
+                        <h3>Containerization</h3>
+                    </a>
+                    <ul class="skill-list">
+                        <li>Docker & Docker Compose</li>
+                        <li>Container Orchestration</li>
+                        <li>Microservices Architecture</li>
+                        <li>Container Security</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <a href="https://www.jenkins.io/doc/" target="_blank" class="skill-link">
+                        <div class="skill-icon">
+                            <img src="https://cdn.worldvectorlogo.com/logos/jenkins-1.svg" alt="Jenkins">
+                        </div>
+                        <h3>CI/CD & Automation</h3>
+                    </a>
+                    <ul class="skill-list">
+                        <li>Jenkins Pipelines</li>
+                        <li>GitLab CI/CD</li>
+                        <li>GitHub Actions</li>
+                        <li>Ansible Automation</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" class="skill-link">
+                        <div class="skill-icon">
+                            <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" alt="Kubernetes">
+                        </div>
+                        <h3>Orchestration & Monitoring</h3>
+                    </a>
+                    <ul class="skill-list">
+                        <li>Kubernetes Administration</li>
+                        <li>Prometheus & Grafana</li>
+                        <li>ELK Stack</li>
+                        <li>Service Mesh (Istio)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section work-section">
+        <div class="container">
+            <h2 class="section-title">My Work</h2>
+            <div class="work-grid">
+                <div class="work-card">
+                    <div class="work-content">
+                        <h3>CI/CD Pipeline Automation</h3>
+                        <p>Implemented automated deployment pipeline using Jenkins, Docker, and Kubernetes, reducing deployment time by 70%</p>
+                        <div class="tech-stack">
+                            <span>Jenkins</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-card">
+                    <div class="work-content">
+                        <h3>Cloud Infrastructure Migration</h3>
+                        <p>Led the migration of legacy infrastructure to AWS using Terraform, implementing Infrastructure as Code practices</p>
+                        <div class="tech-stack">
+                            <span>AWS</span>
+                            <span>Terraform</span>
+                            <span>Ansible</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-card">
+                    <div class="work-content">
+                        <h3>Monitoring Solution</h3>
+                        <p>Designed and implemented comprehensive monitoring using Prometheus and Grafana for microservices architecture</p>
+                        <div class="tech-stack">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>ELK Stack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="animate">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            
+            <!-- Achievements Grid -->
+            <div class="achievements-grid">
+                <div class="achievement-card card-3d">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Best Developer Award</h3>
+                    <p>First place in National Hackathon 2023</p>
+                    <span class="achievement-date">2023</span>
+                </div>
+                <div class="achievement-card card-3d">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Innovation Award</h3>
+                    <p>Tech Innovation Summit 2023</p>
+                    <span class="achievement-date">2023</span>
+                </div>
+            </div>
+
+            <!-- Certifications Grid -->
+            <h3 class="sub-title">Professional Certifications</h3>
+            <div class="certifications-grid">
+                <!-- RHCSA Certification -->
+                <div class="cert-card card-3d">
+                    <img src="https://images.credly.com/images/572de0ba-2c59-4816-a59d-b0e1687e45ee/image.png" alt="RHCSA" class="cert-logo">
+                    <div class="cert-content">
+                        <h3>Red Hat Certified System Administrator</h3>
+                        <p>RHCSA Certification</p>
+                        <span class="cert-date">2023</span>
+                    </div>
+                </div>
+
+                <!-- RHCE Certification -->
+                <div class="cert-card card-3d">
+                    <img src="https://images.credly.com/size/680x680/images/c4e41092-4d49-4355-9d27-01e9d4c3d012/redhat-certified-engineer-rhce-red-hat-enterprise-linux-8.png" alt="RHCE" class="cert-logo">
+                    <div class="cert-content">
+                        <h3>Red Hat Certified Engineer</h3>
+                        <p>RHCE Certification</p>
+                        <span class="cert-date">2023</span>
+                    </div>
+                </div>
+
+                <!-- Meta Certification -->
+                <div class="cert-card card-3d">
+                    <img src="https://download.logo.wine/logo/Meta_Platforms/Meta_Platforms-Logo.wine.png" alt="Meta" class="cert-logo">
+                    <div class="cert-content">
+                        <h3>Meta Frontend Developer</h3>
+                        <p>Professional Certification</p>
+                        <span class="cert-date">2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <!-- Simplified Contact Form -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Me</h3>
+                    <p class="footer-bio">DevOps Engineer specializing in cloud infrastructure, automation, and continuous integration/deployment pipelines.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/dipeshahlawat" target="_blank" class="social-link github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/dipesh-ahlawat" target="_blank" class="social-link linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <nav class="footer-nav">
+                        <a href="#home" onclick="scrollToSection('home')">Home</a>
+                        <a href="#about" onclick="scrollToSection('about')">About</a>
+                        <a href="#skills" onclick="scrollToSection('skills')">Skills</a>
+                        <a href="#work" onclick="scrollToSection('work')">Work</a>
+                        <a href="#achievements" onclick="scrollToSection('achievements')">Achievements</a>
+                        <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
+                    </nav>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <a href="mailto:deepesh2048@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>deepesh2048@gmail.com</span>
+                        </a>
+                        <a href="tel:+91916604348" class="contact-link">
+                            <i class="fas fa-phone-alt contact-icon"></i>
+                            <span>+91 916604348</span>
+                        </a>
+                        <a href="https://maps.google.com/?q=Jaipur,Rajasthan,India" target="_blank" class="contact-link">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>Jaipur, Rajasthan, India</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dipesh Ahlawat | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
